@@ -1,499 +1,453 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="cn">
 
 <head>
-    <meta charset="utf-8">
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="" />
-    <meta name="description" content="Yoriki" />
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/images/ico/favicon-16x16.png" />
-    <link rel="icon" type="image/png" href="assets/images/ico/favicon-32x32.png" />
-    <link rel="icon" type="image/png" href="assets/images/ico/favicon-96x96.png" />
-    <!-- Page Title -->
     <title>Yoriki</title>
-    <!-- Plugins -->
-    <link rel="stylesheet" href="assets/css/plugins.min.css">
-    <!-- Custom css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Yoriki">
+    <meta name="keywords" content="Yoriki, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+
     <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+  	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  	<![endif]-->
+
+    <!-- FAVICON  -->
+    <link rel="icon" type="image/png" href="img/ico/favicon-16x16.png" />
+    <link rel="icon" type="image/png" href="img/ico/favicon-32x32.png" />
+    <link rel="icon" type="image/png" href="img/ico/favicon-96x96.png" />
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="icon-fonts/fontawesome-5.0.6/css/fontawesome-all.min.css" />
+
+    <!--Font -->
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="icon-fonts/flaticon/flaticon.css" />
+
 </head>
 
 <body>
-    <div class="ms-preloader"></div>
-    <!-- Wrapper -->
-    <div class="ms-main-container">
 
-        <!-- Header -->
-        <header class="ms-header">
-            <nav class="ms-nav">
-                <div class="ms-logo">
-                    <a href="index.html" data-type="page-transition">
-                        <img src="assets/images/logo-y.svg" alt="logo">
-                    </a>
-                </div>
-                <!-- Mobile Menu Button -->
-                <!-- <button class="nav__btn">
-                    <span class="burger">
-                        <span class="burger__line"></span>
-                        <span class="burger__line"></span>
-                        <span class="burger__line"></span>
-                    </span>
-                    <span class="cross">
-                        <span class="cross__line"></span>
-                        <span class="cross__line"></span>
-                    </span>
-                </button> -->
-                <!-- Mobile Menu Button -->
-                <!-- <ul class="ms-navbar">
-                    <li class="ms-nav-item link active">
-                        <a href="#">Portfolio</a>
-                        <ul class="ms-submenu">
-                            <li class="ms-nav-item link">
-                                <a href="index.html" data-type="page-transition">Works grid</a>
-                            </li>
-                            <li class="ms-nav-item link">
-                                <a href="work-single-page.html" data-type="page-transition">Simple images</a>
-                            </li>
-                            <li class="ms-nav-item link">
-                                <a href="gallery.html" data-type="page-transition">Gallery</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="ms-nav-item link">
-                        <a href="blog.html" data-type="page-transition">Blog</a>
-                    </li>
-                    <li class="ms-nav-item link">
-                        <a href="about.html" data-type="page-transition">About</a>
-                    </li>
-                    <li class="ms-nav-item link">
-                        <a href="contact.html" data-type="page-transition">Contact</a>
-                    </li>
-                </ul> -->
-            </nav>
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="loading-area">
+            <div class="logo"><img src="img/logo.png" alt=""></div>
+            <span>loading...</span>
+        </div>
+        <div class="left-side"></div>
+        <div class="right-side"></div>
+    </div>
+
+    <div class="page-overlay">
+        <div class="page-transition"></div>
+    </div>
+    <main>
+
+
+        <!-- HEADER 
+	================================================== -->
+        <header class="whitev">
+            <!-- Logo -->
+            <a href="index.html" class="logo" data-type="ajax-load">
+                <img src="img/logo.png" alt="">
+            </a>
+            <!-- Menu -->
+            <div class="nav-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </header>
-        <!-- /Header -->
 
-        <!-- Container -->
-        <main class="ms-container">
+        <!-- Right Bar -->
+        <!-- Social Links -->
+        <div class="social fix">
+            <ul>
+                <li><a href="https://www.behance.net/yoriki"><i class="fab fa-behance" aria-hidden="true"></i> </a></li>
+                <li><a href="https://www.linkedin.com/in/%E6%9E%97%E5%BC%BA-%E4%B8%A5-a96a12a7/"><i class="fab fa-linkedin" aria-hidden="true"></i> </a></li>
+            </ul>
+        </div>
+        <!-- arrow -->
+        <div class="uptotop">
+            <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412" fill="#000">
+                <path d="M7.073,26.241h0L0,19.172l1.414-1.415,4.829,4.829V8h2V22.586l4.829-4.829,1.415,1.415-7.241,7.24Z" transform="translate(0 -8)" />
+            </svg>
+        </div>
 
-            <!-- Hero area -->
-            <div class="ms-hero">
-                <div class="ms-hero__caption">
-                    <div class="ms-hero__title">
-                        <h1>Hi,<br>I'm Yoriki</h1>
-                        <p class="ms-hero__subtitle">愿你有一天能与重要之人重逢 </p>
+        <!-- Full Menu -->
+        <div class="full-menu">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 left-content">
+                    <div class="logo">
+                        <img src="img/logo-d.png" alt="">
+                    </div>
+                    <div class="close-icon d-none">
+                        <img src="img/cancel.png" alt="">
+                    </div>
+                    <div class="outter">
+                        <div class="inner">
+                            <div class="container">
+                                <ul class="site-menu">
+                                    <li><a href="index.html" data-type="ajax-load">首页.</a></li>
+                                </ul>
+                            </div> <!-- container end -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 right-content">
+                    <div class="close-icon">
+                        <img src="img/cancel.png" alt="">
+                    </div>
+                    <div class="outter">
+                        <div class="inner">
+                            <!-- Brief -->
+                            <ul>
+                                <li>联系方式</li>
+                                <li><a href="mailto:1104800510@qq.com">1104800510@qq.com</a></li>
+                                <li>微信号：AloneLeonhart</li>
+                            </ul>
+                            <!-- Follow -->
+                            <ul class="social-links">
+                                <li>关注</li>
+                                <li><a href="https://www.behance.net/yoriki">Behance.</a></li>
+                                <li><a href="https://www.linkedin.com/in/%E6%9E%97%E5%BC%BA-%E4%B8%A5-a96a12a7/">Linkedin.</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- row end -->
+        </div>
+
+
+        <!-- HERO 
+	================================================== -->
+        <div class="hero">
+            <div class="outter">
+                <div class="inner">
+                    <div class="hero-content">
+                        <div class="container">
+                            <h1 class="hero-title">Hi <br>I'm Yoriki</h1>
+                            <p class="hero-text">愿你有一天能与重要之人重逢 <br>
+                                用设计 <span class="element" data-text1="传达想法" data-text2="传达感情" data-loop="true" data-backdelay="3000"></span></p>
+                            <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" width="14.486" height="18.412" viewBox="0 0 14.486 18.412">
+                                <path d="M7.073,26.241h0L0,19.172l1.414-1.415,4.829,4.829V8h2V22.586l4.829-4.829,1.415,1.415-7.241,7.24Z" transform="translate(0 -8)" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- /Hero area -->
+            <div class="hero-image"></div>
+        </div>
 
-            <!-- Works Grid -->
-            <section class="ms-section">
 
-                <!-- Sort -->
-                <ul class="filtr-btn">
-                    <li data-filter="*" class="active">
-                        <h6 class="ms-btn">all</h6>
-                    </li>
-                    <li data-filter=".web">
-                        <h6 class="ms-btn">Web</h6>
-                    </li>
-                    <li data-filter=".app">
-                        <h6 class="ms-btn">App</h6>
-                    </li>
-                    <li data-filter=".digitalpainting">
-                        <h6 class="ms-btn">Digital Painting</h6>
-                    </li>
-                    <li data-filter=".brand">
-                        <h6 class="ms-btn">Brand</h6>
-                    </li>
-                    <li data-filter=".graphic">
-                        <h6 class="ms-btn">Graphic</h6>
-                    </li>
-                    <li data-filter=".3d">
-                        <h6 class="ms-btn">3D</h6>
-                    </li>
-                    <li data-filter=".character">
-                        <h6 class="ms-btn">Character</h6>
-                    </li>
-                    <li data-filter=".picture">
-                        <h6 class="ms-btn">Picture</h6>
-                    </li>
-                    <li data-filter=".icon">
-                        <h6 class="ms-btn">Icon</h6>
-                    </li>
+        <!-- PORTFOLIO SECTION
+================================================== -->
+        <section id="portfolio" class="portfolio atop">
+
+            <!-- Portfolio Filter -->
+            <div class="portfolio_filter">
+                <ul>
+                    <li><a data-filter=".icon" href="#">图标</a></li>
+                    <li><a data-filter=".picture" href="#">照片</a></li>
+                    <li><a data-filter=".ip" href="#">IP</a></li>
+                    <li><a data-filter=".3d" href="#">3D</a></li>
+                    <li><a data-filter=".graphic" href="#">平面</a></li>
+                    <li><a data-filter=".brand" href="#">品牌</a></li>
+                    <li><a data-filter=".digital-painting" href="#">手绘</a></li>
+                    <li><a data-filter=".web" href="#">网站</a></li>
+                    <li><a data-filter=".app" href="#">App</a></li>
+                    <li><a class="select-cat" data-filter="*" href="#">全部</a></li>
                 </ul>
-                <!-- /Sort -->
+            </div>
 
-                <!-- Grid -->
-                <div class="ms-section__block ms-grid">
-                    <div class="col-md-1 col-xs-12 grid-sizer"></div>
+            <!-- filter icon for mobile-->
+            <div class="filter-icon d-none">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="18" height="20" viewBox="296.5 494.5 20 20" enable-background="new 296.5 494.5 20 20" xml:space="preserve">
+                    <path fill="black" fill-rule="evenodd" clip-rule="evenodd" d="M296.5 494.5h8v8h-8V494.5z"></path>
+                    <path fill="black" fill-rule="evenodd" clip-rule="evenodd" d="M308.5 494.5h8v8h-8V494.5z"></path>
+                    <path fill="black" fill-rule="evenodd" clip-rule="evenodd" d="M296.5 506.5h8v8h-8V506.5z"></path>
+                    <path fill="black" fill-rule="evenodd" clip-rule="evenodd" d="M308.5 506.5h8v8h-8V506.5z"></path>
+                </svg>
+            </div>
 
-                    <!-- Work Item 汇智云 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 web">
-                        <a href="wiz-cloud-detail-page.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/wizcloud/cover-wizcloud.jpg)"></div>
-                                <div class="box-hover"></div>
+            <div class="container">
+                <div class="row masonry clearfix">
+                    <!-- iHerb小程序 -->
+                    <a href="iherb-mini-program.html" class="col-xl-6 col-md-6 grid-item app" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <figcaption>
+                                <span> App </span>
+                                <h3 class="title">iHerb小程序</h3>
+                            </figcaption>
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/iherb-mini-program/cover-iherb-mini-program.png" />
                             </div>
-                        </a>
-                        <a href="wiz-cloud-detail-page.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Web</span>
-                                    <h4 class="box-inner__title">Wizcloud</h4>
-                                </div>
+                        </figure>
+                    </a>
+
+                    <!-- 汇智云网站 -->
+                    <a href="wiz-cloud.html" class="col-lg-6 col-md-6 grid-item web" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <!-- ⬆️视频时有个video class -->
+                            <figcaption>
+                                <span>网站 </span>
+                                <h3 class="title">汇智云网站</h3>
+                            </figcaption>
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/wizcloud/cover-wizcloud.jpg" alt="" />
                             </div>
-                        </a>
+                            <!--<div class="video-wrapper">
+                                <video loop="" muted="">
+                                    <source src="img/works/work-2/01.webm" type="video/webm">
+                                    <source src="img/works/work-2/01.mp4" type="video/mp4">
+                                </video>
+                            </div>-->
+                        </figure>
+                    </a>
+
+                    <!-- 手绘 -->
+                    <a href="sleeping-alice.html" class="col-lg-6 col-md-6 grid-item painting" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/painting/cover-sleeping-alice.jpg" />
+                            </div>
+                            <figcaption>
+                                <span>手绘 </span>
+                                <h3 class="title">Sleeping Alice</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 茶嘉 -->
+                    <a href="tea+.html" class="col-lg-6 col-md-6 grid-item brand" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/tea+/cover-tea+.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 品牌 </span>
+                                <h3 class="title">茶嘉</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 黑客马拉松 -->
+                    <a href="hyperledger.html" class="col-lg-6 col-md-6 grid-item graphic" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/hyperledger/cover-hyperledger.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 平面 </span>
+                                <h3 class="title">黑客马拉松</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+
+                    <!-- Low Poly Nature -->
+                    <a href="low-poly-nature.html" class="col-lg-6 col-md-6 grid-item 3d" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/low-poly-nature/cover-low-poly-nature.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 3D </span>
+                                <h3 class="title">Low Poly Nature</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 多多鸡 -->
+                    <a href="duo-duo.html" class="col-lg-6 col-md-6 grid-item ip" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/duo-duo/cover-duo-duo.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> IP </span>
+                                <h3 class="title">多多鸡</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- Frozen Whale -->
+                    <a href="frozen-whale.html" class="col-lg-6 col-md-6 grid-item picture" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/frozen-whale/cover-frozen-whale.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 照片 </span>
+                                <h3 class="title">Frozen Whale</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 8 Line Icons -->
+                    <a href="8-line-icons.html" class="col-lg-6 col-md-6 grid-item icon" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/8-line-icons/cover-8-line-icons.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 图标 </span>
+                                <h3 class="title">8 Line Icons</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 万达私有云平台 -->
+                    <a href="wanda-cloud.html" class="col-lg-6 col-md-6 grid-item web" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/wanda-cloud/wanda-cloud.gif" />
+                            </div>
+                            <figcaption>
+                                <span> 网站 </span>
+                                <h3 class="title">万达私有云平台</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- Mirroe Night -->
+                    <a href="mirror-night.html" class="col-lg-6 col-md-6 grid-item painting" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/painting/cover-mirror-night.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 手绘 </span>
+                                <h3 class="title">Mirror Night</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- Whale in Starry Sky-->
+                    <a href="whale-in-starry-sky.html" class="col-lg-6 col-md-6 grid-item brand" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/whale-in-starry-sky/cover-whale-in-starry-sky.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 品牌 </span>
+                                <h3 class="title">Whale in Starry Sky</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 万益通DM -->
+                    <a href="wan-yi-tong-dm.html" class="col-lg-6 col-md-6 grid-item graphic" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/wan-yi-tong-dm/cover-wan-yi-tong-dm.png" />
+                            </div>
+                            <figcaption>
+                                <span> 平面 </span>
+                                <h3 class="title">万益通DM</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- Magica Voxel Logo -->
+                    <a href="magica-voxel-logo.html" class="col-lg-6 col-md-6 grid-item 3d" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/magica-voxel-logo/cover-magica-voxel-logo.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 3D </span>
+                                <h3 class="title">Magica Voxel Logo</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 多多机械鸡 -->
+                    <a href="duo-duo-robot.html" class="col-lg-6 col-md-6 grid-item ip" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/duo-duo-robot/cover-duo-duo-robot.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> IP </span>
+                                <h3 class="title">多多机械鸡</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- Bear and Girl -->
+                    <a href="bear-and-girl.html" class="col-lg-6 col-md-6 grid-item picture" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/bear-and-girl/cover-bear-and-girl.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 照片 </span>
+                                <h3 class="title">Bear and Girl</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+
+                    <!-- 4 Line Icons -->
+                    <a href="4-line-icons.html" class="col-lg-6 col-md-6 grid-item icon" data-type="ajax-load">
+                        <figure class="portfolio-item">
+                            <div class="image" style="background-image: url();">
+                                <img src="img/works/4-line-icons/cover-4-line-icons.jpg" />
+                            </div>
+                            <figcaption>
+                                <span> 图标 </span>
+                                <h3 class="title">4 Line Icons</h3>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div> <!-- row masonry end -->
+                <!-- pagination -->
+                <!--<div class="text-center load-more top_45 bottom_60">
+                    <button class="site-btn" data-tilt> Load more
+                        <i class="icon ion-md-arrow-down"></i>
+                    </button>
+                    <ul id="pagination-selector" class="portfolio-pagination list-inline d-none">
+                        <li class="list-inline-item">1</li>
+                        <li class="list-inline-item"><a href="page-2.html">2</a></li>
+                    </ul>
+                </div>-->
+            </div> <!-- container end -->
+        </section>
+
+
+        <!-- FOOTER
+================================================== -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="img/logo-d.png" alt=""> <br> <br>
+                        <p>© 2020 Yoriki All rights reserved.</p>
                     </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item iHerb小程序 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 app">
-                        <a href="iherb-mini-program.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/iherb-mini-program/cover-iherb-mini-program.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="iherb-mini-program.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">App</span>
-                                    <h4 class="box-inner__title">iHerb Mini Program</h4>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 footer-info">
+                        <p>中国 上海<br><br>
+                            1104800510@qq.com<br>
+                            微信号：AloneLeonhart</p>
                     </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 手绘 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 digitalpainting">
-                        <a href="sleeping-alice.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/digital-painting/cover-sleeping-alice.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="sleeping-alice.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Digital Painting</span>
-                                    <h4 class="box-inner__title">Sleeping Alice</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 茶嘉 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 brand">
-                        <a href="tea+.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/tea+/cover-tea+.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="tea+.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Brand</span>
-                                    <h4 class="box-inner__title">Tea+</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 黑客马拉松 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 graphic">
-                        <a href="hyperledger.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/hyperledger/cover-hyperledger.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="hyperledger.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Graphic Design</span>
-                                    <h4 class="box-inner__title">黑客马拉松</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Low-Poly Nature -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 3d">
-                        <a href="low-poly-nature.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/low-poly-nature/cover-low-poly-nature.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="low-poly-nature.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">3D</span>
-                                    <h4 class="box-inner__title">Low-Poly Nature</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 多多鸡 -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 character">
-                        <a href="duo-duo.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/duo-duo/cover-duo-duo.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="low-poly-nature.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Character</span>
-                                    <h4 class="box-inner__title">多多鸡</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Frozen Whale -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 picture">
-                        <a href="frozen-whale.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/frozen-whale/cover-frozen-whale.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="frozen-whale.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Picture</span>
-                                    <h4 class="box-inner__title">Frozen Whale</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 8 Line Icons -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 icon">
-                        <a href="8-line-icons.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/8-line-icons/cover-8-line-icons.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="8-line-icons.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Icon</span>
-                                    <h4 class="box-inner__title">8 Line Icons</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Wanda Cloud -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 web">
-                        <a href="wanda-cloud.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/wanda-cloud/cover-wanda-cloud.gif)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="wanda-cloud.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Web</span>
-                                    <h4 class="box-inner__title">Wanda Cloud</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Mirror Night -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 digitalpainting">
-                        <a href="mirror-night.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/digital-painting/cover-mirror-night.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="mirror-night.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Digital Painting</span>
-                                    <h4 class="box-inner__title">Mirror Night</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Whale in Starry Sky -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 brand">
-                        <a href="whale-in-starry-sky.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/whale-in-starry-sky/cover-whale-in-starry-sky.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="whale-in-starry-sky.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Brand</span>
-                                    <h4 class="box-inner__title">Whale in Starry Sky</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Wan Yi Tong DM -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 graphic">
-                        <a href="wan-yi-tong-dm.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/wan-yi-tong-dm/cover-wan-yi-tong-dm.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="wan-yi-tong-dm.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Graphic Design</span>
-                                    <h4 class="box-inner__title">万益通DM</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Magica Voxel Logo -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 3d">
-                        <a href="magica-voxel-logo.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/magica-voxel-logo/cover-magica-voxel-logo.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="magica-voxel-logo.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">3D</span>
-                                    <h4 class="box-inner__title">Magica Voxel Logo</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Duo Duo Robot -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 character">
-                        <a href="duo-duo-robot.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/duo-duo-robot/cover-duo-duo-robot.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="duo-duo-robot.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Character</span>
-                                    <h4 class="box-inner__title">Duo Duo Robot</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item Bear and Girl -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 picture">
-                        <a href="bear-and-girl.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/bear-and-girl/cover-bear-and-girl.jpg)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="bear-and-girl.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Picture</span>
-                                    <h4 class="box-inner__title">Bear and Girl</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
-                    <!-- Work Item 4 Line Icons -->
-                    <div class="grid-item anime-item work-item col-md-6 col-xs-12 icon">
-                        <a href="4-line-icons.html" class="box work-image" data-type="page-transition">
-                            <div class="box-cover">
-                                <div class="box-img" style="background-image: url(assets/images/works/4-line-icons/cover-4-line-icons.png)"></div>
-                                <div class="box-hover"></div>
-                            </div>
-                        </a>
-                        <a href="4-line-icons.html" data-type="page-transition">
-                            <div class="work-info">
-                                <div class="box-inner">
-                                    <span class="box-inner__cat">Icon</span>
-                                    <h4 class="box-inner__title">4 Line Icons</h4>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <!-- /Work Item -->
-
                 </div>
-                <!-- Grid -->
-                <!-- <div class="ms-section__block ms-align-center">
-                    <a href="#" class="ms-btn__square" data-type="page-transition">load more</a>
-                </div> -->
-            </section>
-            <!-- /Works Grid -->
-
-            <!-- Back to top button -->
-            <a href="#" class="back-top"><i class="material-icons">arrow_upward</i></a>
-        </main>
-        <!-- /Container -->
-
-        <!-- Footer -->
-        <footer class="ms-footer">
-            <!-- <ul class="footer-socials">
-                <li><a href="#" class="ms-btn" target="_blank">dribbble</a></li>
-                <li><a href="#" class="ms-btn" target="_blank">behance</a></li>
-                <li><a href="#" class="ms-btn" target="_blank">instagram</a></li>
-            </ul> -->
-            <div class="copyright">2020 © Yoriki</div>
+            </div>
         </footer>
-        <!-- /Footer -->
 
-    </div>
-    <!-- /Wrapper -->
-    <!-- JS -->
-    <!-- jquery-2.1.3.min js -->
-    <script src='assets/js/jquery-3.2.1.min.js'></script>
-    <!-- Plugins -->
-    <script src='assets/js/plugins.min.js'></script>
-    <!-- Main js -->
-    <script src="assets/js/main.js"></script>
+    </main>
+
+
+
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
 </body>
 
 </html>
