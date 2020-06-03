@@ -133,7 +133,7 @@
                   navSelector: '#pagination-selector',
                   extraScrollPx: 0,
                   bufferPx: 0,
-                  maxPage: 6,
+                  maxPage: 99,
                   loading: {
                       finishedMsg: "No more works",
                       msgText: '<div class="loader"><span></span></div>',
@@ -166,7 +166,7 @@
           });
 
 
-          $('.load-more button').on('click', function () {
+          $('.load-more button').one('click', function () {
               setTimeout(function () {
                   port_load();
                   $('.grid-item').addClass('in-view');
