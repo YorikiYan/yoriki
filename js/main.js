@@ -135,7 +135,7 @@
                   bufferPx: 0,
                   maxPage: 99,
                   loading: {
-                      finishedMsg: "No more works",
+                      finishedMsg: "没有更多作品了",
                       msgText: '<div class="loader"><span></span></div>',
                       speed: 'slow',
                       selector: '.load-more',
