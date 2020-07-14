@@ -96,20 +96,20 @@
                   columnWidth: '.grid-item'
               });
           })
-          $('.portfolio_filter ul li a').on("click", function () {
-              $(".portfolio_filter ul li a").removeClass("select-cat");
-              $(this).addClass("select-cat");
-              var selector = $(this).attr('data-filter');
-              $(".masonry").isotope({
-                  filter: selector,
-                  animationOptions: {
-                      duration: 750,
-                      easing: 'linear',
-                      queue: false,
-                  }
-              });
-              return false;
-          });
+//          $('.portfolio_filter ul li a').on("click", function () {
+            //              $(".portfolio_filter ul li a").removeClass("select-cat");
+            //              $(this).addClass("select-cat");
+            //              var selector = $(this).attr('data-filter');
+            //              $(".masonry").isotope({
+            //                  filter: selector,
+            //                  animationOptions: {
+            //                      duration: 750,
+            //                      easing: 'linear',
+            //                      queue: false,
+            //                  }
+            //              });
+            //              return false;
+            //          });
 
           $(".filter-icon").on("click", function () {
               $('.portfolio_filter').addClass('show');
