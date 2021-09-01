@@ -28,7 +28,7 @@
 
 body {
     font-family: 'Gilroy';
-    background: #000;
+    background: #363636;
 }
 
 body.darkness {
@@ -36,7 +36,7 @@ body.darkness {
 }
 
 ::selection {
-    background-color: #000;
+    background-color: #363636;
     color: #fff;
 }
 
@@ -52,36 +52,36 @@ body.darkness {
 
 .darkness ::selection {
     background-color: #fff;
-    color: #000;
+    color: #363636;
 }
 
 p {
-    line-height: 30px;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 29px;
 }
 
 h3 {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 34px;
+    line-height: 40px;
     margin-left: -1px;
 }
 
 h4 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 34px;
     margin-left: -1px;
     font-weight: 700;
 }
 
 h5 {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 26px;
     margin-left: -1px;
 }
 
 h6 {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .darkness h4 {
@@ -95,7 +95,7 @@ h6 {
     font-weight: 600;
     font-size: 15px;
     border: 0;
-    background: #000;
+    background: #363636;
     color: #fff;
     padding: 13px 28px;
     border-radius: 4px;
@@ -120,7 +120,7 @@ h6 {
 }
 
 .darkness .site-btn {
-    color: #000;
+    color: #363636;
     background: #fff;
 }
 
@@ -214,7 +214,7 @@ h6 {
 }
 
 .darkness .site-btn::before {
-    background: #000;
+    background: #363636;
 }
 
 .form-btn:hover:before {
@@ -246,7 +246,7 @@ h6 {
 }
 
 .darkness .form-btn:before {
-    background: #000;
+    background: #363636;
 }
 
 .site-btn:hover {
@@ -254,7 +254,7 @@ h6 {
 }
 
 .darkness .site-btn:hover {
-    color: #000;
+    color: #363636;
 }
 
 /* Page Overlay */
@@ -276,7 +276,7 @@ h6 {
     transition: -webkit-transform .0s;
     transition: transform .0s;
     transition: transform .0s, -webkit-transform .0s;
-    background-color: #000;
+    background-color: #363636;
 }
 
 .page-overlay .page-transition {
@@ -388,7 +388,7 @@ h6 {
     height: 32px;
     width: 32px;
     clip: rect(0, 32px, 32px, 16px);
-    border: 3px solid #000;
+    border: 3px solid #363636;
     border-radius: 50%;
     -webkit-animation: loader-3 1.2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
     animation: loader-3 1.2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
@@ -524,7 +524,7 @@ header.whitev {
 }
 
 .darkness .hero-content span.little {
-    color: #000;
+    color: #363636;
 }
 
 .hero .down-arrow {
@@ -542,7 +542,7 @@ header.whitev {
 }
 
 .white .down-arrow {
-    fill: #000;
+    fill: #363636;
 }
 
 
@@ -562,7 +562,7 @@ header.whitev {
 }
 
 .social ul li a {
-    color: #000;
+    color: #363636;
     font-size: 14px;
     line-height: 40px;
 }
@@ -671,7 +671,7 @@ header.whitev {
     position: fixed;
     left: 45px;
     bottom: 45px;
-    border: solid 1px #000;
+    border: solid 1px #363636;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -715,7 +715,7 @@ header.whitev {
 }
 
 .white .open-search i {
-    color: #000;
+    color: #363636;
 }
 
 .darkness.white .open-search i {
@@ -843,7 +843,7 @@ header.whitev {
 }
 
 .say-hello a {
-    color: #000;
+    color: #363636;
     font-weight: 600;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
@@ -857,7 +857,7 @@ header.whitev {
 }
 
 .link-subtitle {
-    color: #000;
+    color: #363636;
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
@@ -865,7 +865,7 @@ header.whitev {
 
 .link-title {
     font-size: 70px;
-    color: #000;
+    color: #363636;
     font-weight: 900;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
@@ -938,11 +938,11 @@ header.whitev {
 }
 
 .darkness .subhero-title {
-    color: #000;
+    color: #363636;
 }
 
 .white .subhero-title {
-    color: #000;
+    color: #363636;
 }
 
 .darkness.white .subhero-title {
@@ -950,7 +950,7 @@ header.whitev {
 }
 
 .white .hero-content span.little {
-    color: #000;
+    color: #363636;
 }
 
 
@@ -977,11 +977,11 @@ header.whitev {
 }
 
 .white .hero-title {
-    color: #000000;
+    color: #363636;
 }
 
 .white .hero-text {
-    color: #000000;
+    color: #363636;
 }
 
 .white .hero-image {
@@ -1045,11 +1045,11 @@ header.whitev {
 }
 
 .darkness header.black .nav-icon span {
-    background: #000;
+    background: #363636;
 }
 
 .darkness .whitev.drk .nav-icon span {
-    background: #000;
+    background: #363636;
 }
 
 
@@ -1071,7 +1071,7 @@ header.whitev {
 }
 
 header.black .nav-icon span {
-    background: #000;
+    background: #363636;
 }
 
 .darkness header.black .nav-icon span {
@@ -1125,7 +1125,7 @@ header.black .nav-icon span {
 }
 
 .full-menu .site-menu li a {
-    color: #000;
+    color: #363636;
     font-size: 44px;
     font-weight: 900;
     transition: all ease 0.3s;
@@ -1159,7 +1159,7 @@ header.black .nav-icon span {
 }
 
 .darkness .full-menu .right-content {
-    background: #000;
+    background: #363636;
 }
 
 .full-menu .right-content {
@@ -1220,7 +1220,7 @@ header.black .nav-icon span {
 }
 
 .full-menu .right-content ul li a {
-    color: #000;
+    color: #363636;
 }
 
 .darkness .full-menu .right-content ul li a {
@@ -1364,7 +1364,7 @@ header.black .nav-icon span {
 }
 
 .dark .portfolio-item figcaption {
-    color: #000;
+    color: #363636;
 }
 
 .grid-item {
@@ -1463,7 +1463,7 @@ header.black .nav-icon span {
 }
 
 .portfolio_filter ul li a {
-    color: #000;
+    color: #363636;
     font-weight: 600;
     margin-right: 30px;
 }
@@ -1510,7 +1510,7 @@ header.black .nav-icon span {
 }
 
 .white.darkness {
-    background: #000;
+    background: #363636;
 }
 
 .white .hero-image {
@@ -1524,7 +1524,7 @@ header.black .nav-icon span {
 
 .white .hero-title,
 .white .hero-text {
-    color: #000;
+    color: #363636;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -1797,7 +1797,7 @@ form .inp {
 }
 
 .white form .inp {
-    color: #000;
+    color: #363636;
     border-bottom: 1px solid #636363;
 }
 
@@ -1807,7 +1807,7 @@ form .inp {
 }
 
 .white form .form-group .placeholder {
-    color: #000;
+    color: #363636;
 }
 
 .darkness.white form .form-group .placeholder {
@@ -1815,7 +1815,7 @@ form .inp {
 }
 
 .darkness form .form-group .placeholder {
-    color: #000;
+    color: #363636;
 }
 
 form .form-group .placeholder {
@@ -1840,7 +1840,7 @@ form .form-group.with-content .placeholder {
 }
 
 .white form .form-group:after {
-    background: #000;
+    background: #363636;
 }
 
 .darkness.white form .form-group:after {
@@ -1880,7 +1880,7 @@ form .form-group.in:after {
 
 .contact-info a {
     display: block;
-    color: #000;
+    color: #363636;
     font-weight: 600;
     font-size: 18px;
     float: left;
@@ -1902,7 +1902,7 @@ form .form-group.in:after {
 
 .contact-info p {
     display: block;
-    color: #000;
+    color: #363636;
     font-weight: 600;
     font-size: 18px;
     line-height: 34px;
@@ -1914,7 +1914,7 @@ form .form-group.in:after {
 
 .contact-info span {
     display: block;
-    color: #000;
+    color: #363636;
     opacity: .5;
     font-size: 16px;
     margin-bottom: 15px;
@@ -2038,11 +2038,11 @@ article .entry-date a:after {
 }
 
 .white .hero .entry-data li a {
-    color: #000;
+    color: #363636;
 }
 
 .white .hero .entry-data a:before {
-    background: #000;
+    background: #363636;
 }
 
 .white .hero .entry-data a:after {
@@ -2059,9 +2059,8 @@ article .entry-date a:after {
 
 
 .project-info .title {
-    font-size: 34px;
     font-weight: 700;
-    color: #000;
+    color: #363636;
 }
 
 .darkness .project-info .title,
@@ -2070,12 +2069,12 @@ article .entry-date a:after {
 }
 
 .project-info p {
-    color: #000;
+    color: #595959;
     margin-top: 20px;
 }
 
 .categories ul li {
-    color: #000;
+    color: #363636;
     list-style: none;
     font-size: 15px;
     opacity: .8;
@@ -2083,7 +2082,7 @@ article .entry-date a:after {
 }
 
 .categories ul li.client {
-    color: #000;
+    color: #363636;
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: 600;
@@ -2096,7 +2095,7 @@ article .entry-date a:after {
 }
 
 .categories ul li a {
-    color: #000;
+    color: #363636;
     font-weight: 600;
     margin-top: 15px;
     display: inline-block;
@@ -2111,7 +2110,7 @@ article .entry-date a:after {
 .subtext {
     font-size: 30px;
     font-weight: 700;
-    color: #000;
+    color: #363636;
     line-height: 48px;
 }
 
@@ -2154,7 +2153,7 @@ article .entry-date a:after {
 }
 
 .entry-data li a {
-    color: #000;
+    color: #363636;
     margin-right: 15px;
     font-weight: 600;
     position: relative;
@@ -2165,14 +2164,14 @@ article .entry-date a:after {
 }
 
 .entry-date a {
-    color: #000;
+    color: #363636;
     margin-right: 15px;
     font-weight: 600;
     position: relative;
 }
 
 .article-title {
-    color: #000;
+    color: #363636;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: 15px;
@@ -2191,7 +2190,7 @@ article .entry-date a:after {
 }
 
 .white .hero .article-title {
-    color: #000;
+    color: #363636;
 }
 
 article {
@@ -2866,7 +2865,7 @@ article {
     }
 
     .footer-info {
-        color: #000;
+        color: #363636;
     }
 
     .subhero-title {
